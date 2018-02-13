@@ -113,115 +113,115 @@ public class Cryptocurrency {
         this.rank = rank;
     }
 
-    public double getPrice_usd() {
+    public double getPriceUsd() {
         return price_usd;
     }
 
-    public void setPrice_usd(double price_usd) {
+    public void setPriceUsd(double price_usd) {
         this.price_usd = price_usd;
     }
 
-    public double getPrice_btc() {
+    public double getPriceBtc() {
         return price_btc;
     }
 
-    public void setPrice_btc(double price_btc) {
+    public void setPriceBtc(double price_btc) {
         this.price_btc = price_btc;
     }
 
-    public double getVolume_usd_24() {
+    public double getVolumeUsd24() {
         return volume_usd_24;
     }
 
-    public void setVolume_usd_24(double volume_usd_24) {
+    public void setVolumeUsd24(double volume_usd_24) {
         this.volume_usd_24 = volume_usd_24;
     }
 
-    public double getMarket_cap_usd() {
+    public double getMarketCapUsd() {
         return market_cap_usd;
     }
 
-    public void setMarket_cap_usd(double market_cap_usd) {
+    public void setMarketCapUsd(double market_cap_usd) {
         this.market_cap_usd = market_cap_usd;
     }
 
-    public double getAvailable_supply() {
+    public double getAvailableSupply() {
         return available_supply;
     }
 
-    public void setAvailable_supply(double available_supply) {
+    public void setAvailableSupply(double available_supply) {
         this.available_supply = available_supply;
     }
 
-    public double getTotal_supply() {
+    public double getTotalSupply() {
         return total_supply;
     }
 
-    public void setTotal_supply(double total_supply) {
+    public void setTotalSupply(double total_supply) {
         this.total_supply = total_supply;
     }
 
-    public double getMax_supply() {
+    public double getMaxSupply() {
         return max_supply;
     }
 
-    public void setMax_supply(double max_supply) {
+    public void setMaxSupply(double max_supply) {
         this.max_supply = max_supply;
     }
 
-    public double getPercent_change1h() {
+    public double getPercentChange1h() {
         return percent_change1h;
     }
 
-    public void setPercent_change1h(double percent_change1h) {
+    public void setPercentChange1h(double percent_change1h) {
         this.percent_change1h = percent_change1h;
     }
 
-    public double getPercent_change24h() {
+    public double getPercentChange24h() {
         return percent_change24h;
     }
 
-    public void setPercent_change24h(double percent_change24h) {
+    public void setPercentChange24h(double percent_change24h) {
         this.percent_change24h = percent_change24h;
     }
 
-    public double getPercent_change_7d() {
+    public double getPercentChange7d() {
         return percent_change_7d;
     }
 
-    public void setPercent_change_7d(double percent_change_7d) {
+    public void setPercentChange7d(double percent_change_7d) {
         this.percent_change_7d = percent_change_7d;
     }
 
-    public int getLast_updated() {
+    public int getLastUpdated() {
         return last_updated;
     }
 
-    public void setLast_updated(int last_updated) {
+    public void setLastUpdated(int last_updated) {
         this.last_updated = last_updated;
     }
 
-    public double getPrice_eur() {
+    public double getPriceEur() {
         return price_eur;
     }
 
-    public void setPrice_eur(double price_eur) {
+    public void setPriceEur(double price_eur) {
         this.price_eur = price_eur;
     }
 
-    public double getVolume_eur_24h() {
+    public double getVolumeEur24h() {
         return volume_eur_24h;
     }
 
-    public void setVolume_eur_24h(double volume_eur_24h) {
+    public void setVolumeEur24h(double volume_eur_24h) {
         this.volume_eur_24h = volume_eur_24h;
     }
 
-    public double getMarket_cap_eur() {
+    public double getMarketCapEur() {
         return market_cap_eur;
     }
 
-    public void setMarket_cap_eur(double market_cap_eur) {
+    public void setMarketCapEur(double market_cap_eur) {
         this.market_cap_eur = market_cap_eur;
     }
 }
