@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<Cryptocurrency>> call, Response<List<Cryptocurrency>> response) {
                 cryptocurrencies.clear();
+                cryptocurrencies.addAll(response.body());
+                cryptocurrencyAdapter.notifyDataSetChanged();
             }
 
             @Override
